@@ -1,6 +1,6 @@
-const getCharacters = async () => {
+const getCharacters = async (url) => {
     try {
-        const response = await fetch('https://rickandmortyapi.com/api/character')
+        const response = await fetch(url)
         const data = await response.json()
         return data
     } catch (error) {
