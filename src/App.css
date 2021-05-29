@@ -15,12 +15,28 @@
   border-right: 0;
 }
 
+.input-search {
+  /* width: 30%; */
+  padding: 12px;
+  border-radius: 3px;
+  background-color: whitesmoke;
+  border: 0;
+  margin-top: 10px;
+}
+
 .App-container {
   min-height: 82vh;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.pagination {
+  display: 'flex';
+  justify-content: 'space-around'; 
+  width: 100%;
+  margin: 0 auto;
 }
 
 .App-footer {
@@ -33,4 +49,13 @@
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
+}
+
+@media only screen and (max-width: 414px) {
+  .App-container {
+    padding: 2px;
+  }
+  .pagination {
+    width: 100%;
+  }
 }
