@@ -17,6 +17,7 @@
 
 .input-search {
   /* width: 30%; */
+  width: 100%;
   padding: 12px;
   border-radius: 3px;
   background-color: whitesmoke;
@@ -26,7 +27,7 @@
 
 .App-container {
   min-height: 82vh;
-  padding: 20px;
+  padding: 20px 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -51,8 +52,23 @@
   border-right: 0;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 961px) {
   .App-container {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .App-header {
+    min-height: 20vh;
+    flex-direction: column;
+  }
+  .input-search {
+    padding: 5;
+    margin-top: 5px;
+  }
+  .App-container {
+    min-height: 72vh;
     padding: 2px;
   }
   .pagination {
