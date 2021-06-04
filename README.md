@@ -1,6 +1,6 @@
 # Rick and Morty web 💻
 
-Rick and Morty is an web app based on Rick and Morty's characters. So, what can you do with this app?
+Rick and Morty web is an web app based on Rick and Morty's characters. So, what can you do with this app?
 
 You can:
 
@@ -22,7 +22,7 @@ $ npm install
 
 Want to test? Great!
 
-PokeApp uses ReactJs for developing.
+Rick and Morty uses ReactJs for developing.
 Make a change in your file and instantaneously see your updates!
 
 Open your favorite Terminal and run this command.
